@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Contenedor del formulario */
+.contact-container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Título */
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #5a3e36 ;
+    font-size: 26px;
+}
+
+/* Formulario */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Etiquetas */
+.contact-form label {
+    font-weight: italic;
+    color: #5a3e36;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Campos de entrada */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al enfocar */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #5a3e36;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+/* Área de texto */
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Botón de enviar */
+.contact-form button {
+    padding: 14px;
+    background-color: #6d4c41 ;
+  
+}
+button {
+    background-color: #8b5e3b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #6f4527;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back-button {
+    display: inline-block;
+    margin: 10px 0 20px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #9EC6F3;
+}
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #9EC6F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #9EC6F3;
+}
